@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1485954638268
+Build-Jdk: 1.8.0_101-1-redhat
+Built-By: GB116215
+Bundle-Description: REST example using CXF in Karaf container
+Bundle-ManifestVersion: 2
+Bundle-Name: Fabric8 :: Quickstarts :: Karaf :: CXF REST
+Bundle-SymbolicName: sample.helloworld
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: sample.helloworld;uses:="javax.xml.bind.annotation,org.s
+ lf4j,javax.ws.rs,org.apache.cxf.jaxrs.ext,io.swagger.annotations,javax.
+ ws.rs.core";version="0.0.1.SNAPSHOT"
+Import-Package: com.fasterxml.jackson.annotation;version="[2.6,3)";resol
+ ution:=optional,com.fasterxml.jackson.core;version="[2.6,3)";resolution
+ :=optional,com.fasterxml.jackson.databind;version="[2.6,3)";resolution:
+ =optional,com.fasterxml.jackson.jaxrs.json;version="[2.6,3)";resolution
+ :=optional,io.swagger.annotations;version="[1.5,2)";resolution:=optiona
+ l,io.swagger.jaxrs.config;version="[1.5,2)";resolution:=optional,io.swa
+ gger.jaxrs.listing;version="[1.5,2)";resolution:=optional,javax.ws.rs;v
+ ersion="[2,3)",javax.ws.rs.core;version="[2,3)",javax.ws.rs.ext;version
+ ="[2,3)",javax.xml.bind.annotation,org.apache.cxf.jaxrs.ext;version="[3
+ .0,4)",org.apache.cxf.jaxrs.swagger;version="[3.0,4)",org.apache.cxf.tr
+ ansport.http;version="[3.0,4)",org.osgi.service.blueprint;version="[1.0
+ .0,2.0.0)",org.slf4j;version="[1.7,2)";resolution:=optional
+Tool: Bnd-1.50.0
